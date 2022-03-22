@@ -3,30 +3,59 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>JS Bin</title>
+  <title>ID, class, selectors</title>
   
   <style>
     #homepage-header {
       background: yellow;
       
     }
-    
     .grayed {
-      background: red;
+      background: rgb(16, 132, 241);
+      text-align: center;
     }
+    footer {
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+      color: rgb(238, 56, 183);
+    }
+    input[type = email] {
+      background: rgb(209, 238, 255);
+    }
+    input[type = password] {
+      background: rgb(224, 185, 255);
+    }
+    input[type = submit] {
+      background: rgb(255, 28, 115);
+    }
+
   </style>
   
 </head>
 <body>
   
   <header id="homepage-header">
-    <img src="http://placehold.it/280x80" alt = "company logo">
-    <h1>Company Name</h1> 
+    <img src="images/PFP.png" width="125" alt = "company logo">
+    <h1>Khan Freelancing</h1> 
   </header>
   
   
   <section>
     <p class="grayed" >main content</p>
+
+    <h2>Login</h2>
+
+    <form>
+      <input type = "email" placeholder = "email/userame"><br>
+      <input type = "password" placeholder = "pssword"><br>
+      <input type = "submit" value="login">
+    </form>
+
+    <p>
+      <strong>"type^ = em"</strong> is the attribute selector to style elements with the starting characters of your choice <br>
+      <strong>"type$ = em"</strong> is the attribute selector to style elements with the  ending characters of your choice <br>
+      <strong>"type* = em"</strong> is the attribute selector to style elements that contain characters of your choice <br>
+    </p>
   </section>
   
   <aside>
