@@ -8,8 +8,9 @@
 </head>
 
 <style>
-    section.latest.articles > h1 {
+    .articles > h1 {
         color: rgb(255, 94, 0);
+        font-size: 23px
     }
 
     article a {
@@ -17,15 +18,19 @@
     }
 
     article p + a {
-        color: rgb(10, 117, 76);
+        color: rgb(255, 162, 55);
+    }
+
+    article p + a:hover {
+        color: rgb(255, 94, 0);
     }
 </style>
 <body>
 
     <div class = "main-content">
-        <section class = "articles latest">
+        <section class = "articles">
             <h1>Latest Posts</h1>
-            
+             
             <article>
                 <h1>Today's Rants</h1>
                 <p>
@@ -45,7 +50,7 @@
             </article>
 
 
-            <section class = "articles archived">
+            <section class = "articles">
                 <h1>Archived Posts</h1>
                 
                 <article>
