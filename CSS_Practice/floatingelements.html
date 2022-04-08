@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floating Elements</title>
+
+    <style>
+        .container{
+            border: 1px solid green;
+            padding: 10px;
+        }
+        .box{
+            background-color: aqua;
+            margin: 5px;
+            color: rgb(0, 0, 0);
+            width: 100px;
+            height: 100px;
+        }
+        .float{
+            float: left;
+        }
+        a{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+            <div class="box float">Box</div>
+            <div class="box float">Box</div>
+            <div class="box float">Box</div>
+            <div class="box float">Box</div>
+            <div class="box float">Box</div>
+
+            <span>Some inline content. It will flow where space is available. Some inline content. It will flow where space is available.</span>
+
+            <a href="#" class="float">an anchor</a>
+    </div>
+    
+</body>
+</html>
