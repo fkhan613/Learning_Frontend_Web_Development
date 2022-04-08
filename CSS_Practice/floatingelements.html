@@ -10,6 +10,7 @@
         .container{
             border: 2px solid rgb(194, 95, 15);
             padding: 10px;
+            overflow: hidden;
         }
         .box{
             background-color: aqua;
@@ -26,10 +27,19 @@
         }
         h1{
             clear: both;
+            text-decoration: underline;
             text-align: center;
+            
         }
         .prayer-times{
             text-align: center;
+        }
+        .clearfix:after{
+            content: ".";
+            visibility: hidden;
+            display: block;
+            height: 0;
+            clear: both;
         }
     </style>
 </head>
@@ -44,10 +54,10 @@
             <span>Some inline content. It will flow where space is available. Some inline content. It will flow where space is available.</span>
 
             <a href="#" class="float">an anchor</a>
-            <h1>Title</h1>
+            <h1>OTTAWA PRAYER TIMES</h1>
             
             <div class="prayer-times">
-                <iframe id="iframe" title="prayerWidget" class="" style=" height: 358px; border: 6em solid #ddd; border-radius: 10em; border-color: rgba(223, 220, 220, 0.74);" scrolling="no" src="https://www.islamicfinder.org/prayer-widget/6094817/shafi/5/0/15.0/15.0"> </iframe>
+                <iframe id="iframe" title="prayerWidget" class="" style=" height: 358px; border-width: 8vh; border-radius: 10em; border-color: rgba(223, 220, 220, 0.74);" scrolling="no" src="https://www.islamicfinder.org/prayer-widget/6094817/shafi/5/0/15.0/15.0"> </iframe>
             </div>
     </div>
     
