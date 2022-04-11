@@ -44,6 +44,7 @@ ul{
 .fixed-width{
     width: 940px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 /*===============================
@@ -56,4 +57,22 @@ Header
 
 .page-header > div{
     border: 1px solid rgb(42, 109, 252);
+}
+
+.page-header nav{
+    float: right;
+    font-family: "Economica", sans-serif;
+    text-transform: uppercase;
+}
+
+.page-header nav li{
+    color: #bfbfbf;
+    float: left;
+    margin-right: 3em;
+}
+
+.page-header nav li em{
+    display: block;
+    color: #474747;
+    font-size: 1.6em; 
 }
