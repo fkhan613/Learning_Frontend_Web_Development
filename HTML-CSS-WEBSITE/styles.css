@@ -53,6 +53,7 @@ Header
 
 .page-header{
     border-top: 5px solid #ebebeb;
+    padding-bottom: 2em;
 }
 
 .page-header >div{
