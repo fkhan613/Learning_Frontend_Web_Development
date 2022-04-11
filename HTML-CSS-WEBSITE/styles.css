@@ -50,14 +50,6 @@ ul{
 /*===============================
 Header
 ================================*/
-.page-header{
-    border: 1px solid red;
-
-}
-
-.page-header > div{
-    border: 1px solid rgb(42, 109, 252);
-}
 
 .page-header nav{
     float: right;
@@ -65,10 +57,21 @@ Header
     text-transform: uppercase;
 }
 
+.page-header .identity{
+    font-family: "Pacifico", cursive;
+    font-size: 3.5em;
+    
+}
+
 .page-header nav li{
     color: #bfbfbf;
     float: left;
-    margin-right: 3em;
+    margin-right: 3rem;
+    padding-top: 3rem;
+}
+
+.page-header nav li:last-child{
+    margin-right: 0rem;
 }
 
 .page-header nav li em{
