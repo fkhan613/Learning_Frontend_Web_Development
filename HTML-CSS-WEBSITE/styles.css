@@ -8,6 +8,33 @@ html, body{
     color: #474747;
 }
 
+h1,h2,h3,h4,h5,h6{
+    font-family: "Economica", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 00 1em;
+
+}
+
+h2{
+    font-size: 1.6rem;
+}
+
+h3{
+    font-size: 1.2rem;
+}
+
+a{
+    color: inherit;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover, a:visited, a:active{
+    text-decoration: none;
+    color: inherit;
+}
+
 ul{
     list-style-type: none;
     padding: 0;
