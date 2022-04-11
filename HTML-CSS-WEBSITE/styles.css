@@ -51,16 +51,24 @@ ul{
 Header
 ================================*/
 
+.page-header{
+    border-top: 5px solid #ebebeb;
+}
+
+.page-header >div{
+    position: relative;
+}
+
 .page-header nav{
     float: right;
     font-family: "Economica", sans-serif;
     text-transform: uppercase;
 }
 
-.page-header .identity{
+.page-header .logo{
     font-family: "Pacifico", cursive;
     font-size: 3.5em;
-    
+    position: absolute;
 }
 
 .page-header nav li{
@@ -68,10 +76,6 @@ Header
     float: left;
     margin-right: 3rem;
     padding-top: 3rem;
-}
-
-.page-header nav li:last-child{
-    margin-right: 0rem;
 }
 
 .page-header nav li em{
