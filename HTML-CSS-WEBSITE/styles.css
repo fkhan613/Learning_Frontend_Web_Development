@@ -8,7 +8,7 @@ html, body{
     color: #474747;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6 .title{
     font-family: "Economica", sans-serif;
     text-transform: uppercase;
     font-weight: bold;
@@ -45,6 +45,23 @@ ul{
     width: 940px;
     margin: 0 auto;
     overflow: hidden;
+}
+
+/*===============================
+Main Visual
+================================*/
+.main-visual{
+}
+
+.main-visual figcaption{
+    background-color:#d8d6d677;
+    padding: 0.5em 1em;
+}
+
+.main-visual figcaption > strong{
+    font-size: 1.5em;
+    font-family: "Economica", sans-serif;
+
 }
 
 /*===============================
