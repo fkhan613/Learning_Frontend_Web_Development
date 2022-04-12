@@ -97,12 +97,16 @@ Footer
 
 .page-footer .copyright{
     float: left;
-    padding-top: 1.5rem;
+    padding-top: 1rem;
     padding-left: 1rem;
 }
 
 .page-footer .credits{
     float: right;
-    padding-top: 1.5rem;
+    padding-top: 1rem;
     padding-right: 1rem;
+}
+
+.page-footer-content{
+    padding: 1em;
 }
