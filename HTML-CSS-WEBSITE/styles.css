@@ -88,6 +88,13 @@ Header
 /*===============================
 Footer
 ================================*/
+.page-footer:before{
+    content: " ";
+    display: block;
+    height: 5px;
+    background-image: url(images/pattern.png);
+}
+
 .page-footer{
     background-color: #f1f1f1;
     color: #9b9b9b;
