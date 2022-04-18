@@ -152,7 +152,6 @@ Portfolio
 ================================*/
 .portfolio{
     position: relative;
-    background-color: yellow;
 }
 
 .portfolio:before{
