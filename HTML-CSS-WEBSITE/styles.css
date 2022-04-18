@@ -176,6 +176,20 @@ Portfolio
     padding: 0.8em;
 }
 
+.work{
+    float: left;
+    width: 22%;
+    margin-right: 4%;
+}
+
+.work:last-child{
+    margin-right: 0;
+}
+
+.work figure{
+    margin-bottom: 1em;
+}
+
 /*===============================
 Footer
 ================================*/
