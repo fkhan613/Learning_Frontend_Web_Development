@@ -1,5 +1,4 @@
-let firstName = "Farhan",
-  lastName = "Khan";
+let firstName = "Farhan", lastName = "Khan";  
 let age = 17;
 let isStudent = true;
 
