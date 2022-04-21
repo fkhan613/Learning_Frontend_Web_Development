@@ -1,8 +1,22 @@
 .container {
   position: relative;
   text-align: center;
+  margin-top: 25rem;
+  border: 5px solid rgba(233, 233, 233, 0.5);
+  padding: 1em;
+  background-color: rgba(51, 255, 255, 0.3);
+  border-radius: 3.5em;
+  width: 500px;
+  left: 36%;
 }
 
 #counter {
+  position: relative;
   font-size: 50px;
+  bottom: 5px;
+  color: white;
+}
+
+body {
+  background-image: url("https://www.teahub.io/photos/full/80-800800_wallpaper-rose-drop-water-water-full-screen-rose.jpg");
 }
