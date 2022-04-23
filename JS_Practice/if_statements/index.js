@@ -1,5 +1,16 @@
-let age;
-let error = false;
+var age;
+var error = false;
+
+do {
+  age = window.prompt("Enter your age");
+
+  if (age <= 0) {
+    error = true;
+    window.alert("You're not born yet!");
+  } else {
+    error = false;
+  }
+} while (error);
 
 if (age >= 60) {
   document.write("You are eligible for the senior citizen discount");
