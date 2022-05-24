@@ -10,5 +10,5 @@ document.getElementById("decreaseBtn").onclick = function () {
     return;
   }
     count--;
-  document.getElementById("output").innerHTML = 0;
+  document.getElementById("output").innerHTML = count;
 }; 
