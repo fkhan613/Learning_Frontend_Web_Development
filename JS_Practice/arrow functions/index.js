@@ -1,1 +1,3 @@
-const greet = (userName) => console.log("Hello ${userName}");
+const greet = (userName) => console.log(`Hello ${userName}`);
+
+greet("Farhan");
